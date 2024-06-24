@@ -217,7 +217,7 @@ body .quote-1 h2 {
     font-weight: 300;
 }
 
-header{
+header {
     padding: 1em 0;
 }
 
@@ -227,7 +227,7 @@ header .container .flex-row h3 {
     font-size: 2em;
 }
 
-header .container .flex-row{
+header .container .flex-row {
     align-items: center;
 }
 
@@ -236,9 +236,158 @@ header .container .flex-row ul li {
     font-family: "Montserrat", sans-serif;
     font-size: 1em;
 }
+
 header .container .flex-row ul {
     list-style: none;
     display: flex;
     justify-content: end;
     gap: 45px;
+}
+
+
+body .solutions {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+body .solutions .solution-txt {
+    width: 40%;
+    position: sticky;
+    top: 0em;
+    padding-top: 10em;
+}
+
+body .solutions .sol-card-parent {
+    width: 45%;
+    margin-top: 40%;
+}
+
+body .solutions .solution-txt p {
+    font-size: 1em;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 0.5px;
+    line-height: 1.8;
+    word-spacing: 2px;
+}
+
+body .solutions .solution-txt h2 {
+    font-family: "Amarante", serif;
+    font-size: 2.5em;
+    margin: 0.5em 0;
+}
+
+body .solutions .solution-txt a {
+    text-decoration: none;
+    color: #000;
+    padding: 1em;
+    border: 1px solid grey;
+    font-family: 'Montserrat';
+    display: inline-block;
+}
+
+body .solutions .sol-card-parent .sol-card {
+    display: flex;
+    padding: 1em 2em;
+    gap: 1em;
+    transition: 0.3s;
+    align-items: center;
+    box-sizing: border-box;
+    border: 2px solid #000;
+    margin-bottom: 1.5em;
+}
+
+body .solutions .sol-card-parent .sol-card.lag-gaya{
+    background-color: #000;
+    gap: 1.5em;
+}
+
+body .solutions .sol-card-parent .sol-card.lag-gaya h2{
+    color: #fff !important;
+} 
+
+body .solutions .sol-card-parent .sol-card.lag-gaya p{
+    color: #fff !important;
+} 
+
+body .solutions .sol-card-parent .sol-card.lag-gaya  svg{
+    filter: invert(1) !important;
+}
+
+body .solutions .sol-card-parent .sol-card .sol-card-txt > h2{
+    font-family: 'Montserrat';
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-bottom: 0.5em;
+    color: #000;
+}
+
+body .solutions .sol-card-parent .sol-card .sol-card-txt p{
+    font-family: 'Montserrat';
+    font-size: 0.95em;
+    margin-bottom: 0.5em;
+    letter-spacing: 0.5px;
+    line-height: 1.4;
+    word-spacing: 2px;
+    color: #000;
+}
+
+
+body {
+    background: #AEDEE0;
+}
+
+body .real{
+    height: 400vh;
+}
+
+body .real .slides{
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: flex;
+    overflow: hidden;
+}
+
+
+body .real  .slide{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2em;
+}
+
+body .real  .slide h1{
+    font-size: 10em;
+    font-family: 'Kaushan Script';
+    color: #fff;
+} 
+
+body .real  .slide p{
+    font-size: 3em;
+    font-weight: 400;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+}
+
+body .real .slides .slide0{
+    flex-shrink: 0;
+    background-color: #EF9D71;
+   
+}
+body .real .slides .slide1{
+    flex-shrink: 0;
+    background-color: #EF9D71;
+}
+body .real .slides .slide2{
+    flex-shrink: 0;
+    background-color: #EF9D71;
+}
+body .real .slides .slide3{
+    flex-shrink: 0;
+    background-color: #EF9D71;
 }
